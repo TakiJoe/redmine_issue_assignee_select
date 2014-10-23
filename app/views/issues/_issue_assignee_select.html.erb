@@ -2,4 +2,4 @@
 <%=   stylesheet_link_tag 'select2.css', :plugin => 'redmine_issue_assignee_select' %>
 <% end %>
 <%= javascript_include_tag 'select2.js', :plugin => 'redmine_issue_assignee_select' %>
-<%= javascript_tag "$('#issue_assigned_to_id').width('60%').select2();" %>
+<%= javascript_tag "$('#issue_assigned_to_id').select2({ width: 'resolve' });" %>
