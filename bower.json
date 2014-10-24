@@ -6,11 +6,9 @@
   },
   "exportsOverride": {
     "select2": {
-      "javascripts": "**/*.js",
-      "stylesheets": "**/*.css",
-      "images": ["**/*.png", "**/*.gif"]
+      "javascripts": "**/select2.min.js",
+      "stylesheets": ["**/*.css", "**/*.png", "**/*.gif"]
     },
-    "*": {
-    }
+    "*": { }
   }
 }
