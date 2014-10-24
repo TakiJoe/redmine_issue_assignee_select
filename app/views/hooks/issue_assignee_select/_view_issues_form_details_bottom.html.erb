@@ -1,5 +1,6 @@
 <% content_for :header_tags do %>
-<%=   stylesheet_link_tag 'select2.css', :plugin => 'redmine_issue_assignee_select' %>
+<%=   stylesheet_link_tag 'select2/select2.css', :plugin => 'redmine_issue_assignee_select' %>
+<%=   stylesheet_link_tag 'select2/select2-bootstrap.css', :plugin => 'redmine_issue_assignee_select' %>
 <% end %>
-<%= javascript_include_tag 'select2.js', :plugin => 'redmine_issue_assignee_select' %>
+<%= javascript_include_tag 'select2/select2.min.js', :plugin => 'redmine_issue_assignee_select' %>
 <%= javascript_tag "$('#issue_assigned_to_id').select2({ width: 'resolve' });" %>

@@ -1,0 +1,14 @@
+{
+  "name": "redmine_issue_assignee_select",
+  "version": "0.1.0",
+  "dependencies": {
+    "select2": "3.5.1"
+  },
+  "exportsOverride": {
+    "select2": {
+      "javascripts": "**/select2.min.js",
+      "stylesheets": ["**/*.css", "**/*.png", "**/*.gif"]
+    },
+    "*": { }
+  }
+}
