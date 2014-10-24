@@ -1,6 +1,6 @@
 {
   "name": "redmine_issue_assignee_select",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "dependencies": {
     "select2": "3.5.1"
   },

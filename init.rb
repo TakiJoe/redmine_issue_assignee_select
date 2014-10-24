@@ -5,6 +5,6 @@ Redmine::Plugin.register :redmine_issue_assignee_select do
   name 'Redmine Issue Assignee Select plugin'
   author 'xcezx'
   description 'Issue assignee select'
-  version '0.0.2'
+  version '0.1.0'
   url 'https://github.com/xcezx/redmine_issue_assignee_select'
 end
