@@ -1,0 +1,13 @@
+{
+  "name": "redmine_issue_assignee_select",
+  "version": "0.2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=0.11.0"
+  }
+}
